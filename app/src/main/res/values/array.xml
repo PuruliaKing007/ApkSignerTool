@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sign_secheme">
+        <item>V1 + V2 + V3</item>
+        <item>V1 + V2</item>
+        <item>V1 + V3</item>
+        <item>V1</item>
+        <item>V2 + V3 (Android 7.0+)</item>
+        <item>V2 (Android 7.0+)</item>
+        <item>V3 (Android 9.0+)</item>
+    </string-array>
+</resources>

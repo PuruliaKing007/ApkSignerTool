@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Enter Apk Path"
+		android:textSize="28sp"
+		android:id="@+id/activitymainTextView1"/>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="Enter .apk path"
+			android:id="@+id/activitymainEditText1"/>
+
+		<ImageView
+			android:src="@drawable/ic_file_download"
+			android:background="?android:attr/selectableItemBackground"
+			android:focusable="true"
+			android:clickable="true"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_alignRight="@id/activitymainEditText1"
+			android:scaleType="centerInside"
+			android:adjustViewBounds="true"
+			android:layout_alignParentRight="true"
+			android:id="@+id/activitymainImageView1"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_marginTop="20dp">
+
+		<TextView
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:text="Signature Key"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activitymainSpinner1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_marginTop="5dp">
+
+		<TextView
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:text="Scheme"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/activitymainSpinner2"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Sign"
+		android:id="@+id/activitymainButton1"
+		android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
